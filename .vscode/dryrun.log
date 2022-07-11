@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/adrianclinansmith/Documents/University_of_Guelph/09_2020_Fall/CIS3210_Networks/Assignments/A1'
+make: Leaving directory `/Users/adrianclinansmith/Documents/University_of_Guelph/09_2020_Fall/CIS3210_Networks/Assignments/A1'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

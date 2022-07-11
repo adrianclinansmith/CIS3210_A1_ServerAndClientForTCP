@@ -1,0 +1,14 @@
+Beejee's:
+=========
+
+Use send() and recv() not sendto() and recvfrom()
+
+if (send(new_fd, "Hello world"  ... is the part we will use 
+if ((numbytes = recv( 		... ditto 
+Swap them around. Cleint sends, server receives. 
+
+Example code only does one read. You must use loops to do more (you'll need a loop(s) in the client and a loop(s) in the server). There should also be checks (use numbytes).
+
+fork() needs to be used so multiple people can send data simultaneously (the built in example forks alreayd, I think).
+
+Use Project Gutenberg to test big files.
