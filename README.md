@@ -1,0 +1,2 @@
+# CIS3210_A1_ServerAndClientForTCP
+A simple server (C on Linux) capable of receiving text data (messages) from clients over TCP sockets and a client (C on Linux) for sending them. A large message will be broken by the client into multiple pieces for transfer. The server will print these text messages on the standard output.
